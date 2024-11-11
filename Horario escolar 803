@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de Clases</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+            font-size: 12px;
+        }
+        th {
+            background-color: #00539C;
+            color: white;
+        }
+        .highlight {
+            background-color: #E0F7FA;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Instituto Técnico Industrial de Villavicencio - Horario 8-3</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="highlight">Informática<br>S.Inf.4<br>Guillermo Cucaita</td>
+                <td class="highlight">Biología<br>A16<br>Rosa Elida Amaya</td>
+                <td rowspan="4">Exploración tecnica</td>
+                <td class="highlight">Biología<br>A16<br>Rosa Elida Amaya</td>
+                <td>Inglés<br>A16<br>Saul Rodríguez</td>
+            </tr>
+            <tr>
+                <td class="highlight">Edu Física<br>A16</td>
+                <td>Inglés<br>A16<br>Saul Rodríguez</td>
+                <td>Artes<br>A16<br>Nancy Navarro</td>
+                <td>Ética<br>A16<br>Sergio Ordóñez</td>
+            </tr>
+            <tr>
+                <td>Lengua Castellana<br>A16<br>John Jairo Benavides</td>
+                <td>Lengua Castellana<br>A16<br>John Jairo Benavides</td>
+                <td>Algebra<br>A16<br>Javier Morales</td>
+                <td>Física<br>A16<br>Willmer García</td>
+            </tr>
+            <tr>
+                <td class="highlight">Ciencias Sociales<br>A16<br>Carolina Maldonado</td>
+                <td>Ciencias Sociales<br>A16<br>Carolina Maldonado</td>
+                <td>Algebra<br>A16<br>Javier Morales</td>
+                <td>Ciencias Sociales<br>A16<br>Carolina Maldonado</td>
+            </tr>
+            <tr>
+                <td colspan="5">Descanso</td>
+            </tr>
+            <tr>
+                <td>C. Sociales<br>A16<br>Carolina Maldonado</td>
+                <td>Lengua Castellana<br>A16<br>John Jairo Benavides</td>
+                <td>Algebra<br>A16<br>Javier Morales</td>
+                <td>Dibujo Técnico<br>A16<br>Luis Jorge Silva</td>
+                <td>Química<br>A16<br>Deisy Puentes</td>
+            </tr>
+            <tr>
+                <td>C. Sociales<br>A16<br>Carolina Maldonado</td>
+                <td>C. Sociales<br>A16<br>Carolina Maldonado</td>
+                <td>Algebra<br>A16<br>Javier Morales</td>
+                <td>Lengua Castellana<br>A16<br>John Jairo Benavides</td>
+                <td>Lengua Castellana<br>A16<br>John Jairo Benavides</td>
+            </tr>
+            <tr>
+                <td colspan="5">Almuerzo 9, 10 y 11</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</body>
+</html>
